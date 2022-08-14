@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+}
+
+h3{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+    font-family: BebasNeue-Regular;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    text-align: center;
+    color: white;
+    text-shadow: 1px;
+    border: 1px solid white;
+    border-radius: 5px;
+    line-height: 25px;
+    font-family: Cursed Timer ULiL;
+
+}
+
+
+

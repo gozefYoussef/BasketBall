@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score" id="lscore">0</h2>
+                <div>
+                    <button onclick="lplusOne()" id="l1">+1</button>
+                    <button onclick="lplusTwo()" id="l2">+2 </button>
+                    <button onclick="lplusThree()" id="l3">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="rscore">0</h2>
+                <div>
+                    <button onclick="rplusOne()" id="r1">+1</button>
+                    <button onclick="rplusTwo()" id="r2">+2</button>
+                    <button onclick="rplusThree()" id="r3">+3</button>
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
